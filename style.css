@@ -1,0 +1,100 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            position: relative;
+            width: 350px;
+            height: 504px;
+            margin: 5% auto 0;
+        }
+        /* first part of caclculator */
+        
+        .header {
+            display: felx;
+            justify-content: last baseline;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: black;
+        }
+        
+        .mg {
+            display: inline-flex;
+            justify-content: space-evenly;
+            position: relative;
+            padding: 10px;
+            color: white;
+            border: none;
+            outline: none;
+            background-color: black;
+            margin: 9px 0px 0px 5px;
+        }
+        
+        .mg:focus {
+            border-bottom: 5px solid #25D366;
+            color: #25D366;
+        }
+        /* second part */
+        
+        .blank {
+            width: 100%;
+            height: 150px;
+        }
+        
+        .calculator-screen {
+            width: 100%;
+            font-size: 5rem;
+            height: 150px;
+            border: none;
+            background-color: #252525;
+            color: #fff;
+            text-align: right;
+            padding-right: 20px;
+            padding-left: 10px;
+            padding-top: 60px;
+        }
+        
+        .mg1 {
+            display: inline-flex;
+            justify-content: space-evenly;
+            position: relative;
+            padding: 5px;
+            color: white;
+            border: none;
+            outline: none;
+            background-color: black;
+            margin: 10px 0px 0px 20px;
+        }
+        
+        .mg1:focus {
+            color: #25D366;
+        }
+        
+        .mg2 {
+            height: 60px;
+            background-color: black;
+            font-size: 2rem;
+            color: whitesmoke;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .calculator-keys {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background-color: #333;
+        }
+        
+        .mg3 {
+            height: 60px;
+            background-color: black;
+            font-size: 2rem;
+            color: #25D366;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
